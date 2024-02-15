@@ -54,7 +54,7 @@ function Sec_cart({ selectedImage, handleClick, RED_cart, Green_cart, Blue_cart 
             </li>
           </ul>
         </nav>
-        <div className='flex justify-end *:mx-1 mt-10 justify-center'>
+        <div className='flex justify-end *:mx-1 my-10 justify-center'>
           <button className='rounded-full bg-[#3094ea] w-[12px] h-[12px]' onClick={() => handleClick(Blue_cart)}></button>
           <button className='rounded-full bg-[#0fa581] w-[12px] h-[12px]' onClick={() => handleClick(Green_cart)}></button>
           <button className='rounded-full bg-[#ff0000] w-[12px] h-[12px]' onClick={() => handleClick(RED_cart)}></button>

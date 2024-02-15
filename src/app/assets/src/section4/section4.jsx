@@ -4,7 +4,7 @@ import bluline from '../../img/bluline.png';
 
 export default function Section_four() {
     return (
-        <section className=' w-full bg-[#3997e9]  flex flex-wrap justify-center py-20 mt-10'>
+        <section className=' w-full bg-[#3997e9]  flex flex-wrap justify-center py-20 mt-20'>
             <section className=' w-full 2xl:container'>
                 <section className=' w-full  justify-center flex flex-wrap px-10 lg:px-36 '>
                     <section className='w-full lg:w-1/2'>

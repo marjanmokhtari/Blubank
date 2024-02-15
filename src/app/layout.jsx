@@ -43,31 +43,31 @@ export default function RootLayout({ children }) {
 }
 function Footer() {
   return (
-    <footer className=' w-full py-5 bg-[#4b94ea] flex justify-center flex-wrap px-28'>
+    <footer className=' w-full py-5 bg-[#4b94ea] flex justify-center flex-wrap lg:px-28 px-10'>
       <section className=' w-full 2xl:container  flex flex-wrap'>
         <section className='w-full lg:w-[75%] order-last lg:order-first '>
             <section className=' w-full'>
               <div className='w-full'>
-                <h6 className=' text-2xl font-bold my-3'>امنیت حساب‌ها در بلو</h6>
+                <h6 className=' text-2xl font-semibold my-3'>امنیت حساب‌ها در بلو</h6>
                 <nav className=' *:lg:pe-10 *:pe-0'>
                   <ul>
                     <li>
-                      <h6 className='font-bold my-5'>نحوه حفاظت از سرمایه مشتریان</h6>
+                      <h6 className=' lg:font-semibold  my-5'>نحوه حفاظت از سرمایه مشتریان</h6>
                       <p className='text-sm'>مبالغ سپرده‌‌های مشتریان در چارچوب ضوابط قانونی و تا سقف قانونی تعیین شده مورد تضمین «صندوق ضمانت سپرده‌های بانک مرکزی» است..</p>
                     </li>
                     <li>
-                      <h6 className='font-bold my-5'>پروتکل‌های امنیتی</h6>
+                      <h6 className=' lg:font-semibold my-5'>پروتکل‌های امنیتی</h6>
                       <p className='text-sm'>در بلو همه پروتکل‌های امنیتی در سیستم‌های زیرساخت بانکی و همچنین استانداردهای بانک مرکزی در خصوص تسویه وجوه و حسابداری، به‌دقت رعایت شده است.</p>
                     </li>
                     <li>
-                      <h6 className='font-bold my-5'>آسایش بیشتر</h6>
+                      <h6 className=' lg:font-semibold my-5'>آسایش بیشتر</h6>
                       <p className='text-sm'>جایگزینی کارت بانکی با پول کاغذی به دلیل اشراف لحظه‌ای بر دارایی‌های مشتریان، سبب امنیت دوچندان حساب‌های بانکی شده است. این تجربه موفق نشان داده است، روند دیجیتالی شدن منجر به آسایش و راحتی بیشتری برای مشتریان می‌شود.</p>
                     </li>
                   </ul>
                 </nav>
               </div>
               <div className='w-full mt-20 leading-8'>
-                  <h6 className='text-xl font-bold my-2'>ارتباط با ما</h6>
+                  <h6 className=' lg:font-semibold my-2'>ارتباط با ما</h6>
                   <p>آدرس : تهران، خیابان نلسون ماندلا، خیابان شهید رحیمی، پلاک43</p>
                   <p>تلفن : ۸۷۶۴۱ - ۰۲۱</p>
               </div>
