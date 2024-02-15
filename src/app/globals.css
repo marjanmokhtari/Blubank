@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,12 +22,10 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -31,15 +33,16 @@ body {
     text-wrap: balance;
   }
 }
-.myanime{
+
+.myanime {
   animation: identifier 5s ease-in-out 0s infinite alternate;
 }
 
 @keyframes identifier {
-  0%{
+  0% {
     transform: translateY(0);
   }
-  100%{
+  100% {
     transform: translateY(-30px);
   }
 }
