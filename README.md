@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <h3 align="center" >Blue BAnk</h3>
+  <h3 align="center" >Blue Bank</h3>
 
   <p align="center">
     <br />
