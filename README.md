@@ -21,7 +21,9 @@ Swiper - react-icons - Responsive
 
 
 </div>
+
 ![Screenshot (99)](https://github.com/marjanmokhtari/Blubank/assets/143844652/36471f7a-32ec-4993-824a-bfda2c2e3fb6)
+
 ![Screenshot (100)](https://github.com/marjanmokhtari/Blubank/assets/143844652/18ccae65-c088-4a2a-88fc-cdb2f05b1917)
 
 
